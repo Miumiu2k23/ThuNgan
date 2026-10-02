@@ -2908,7 +2908,7 @@
   /* Bàn đang được chọn làm đơn hiện tại: luôn tô đặc nền xanh + khung trắng lồng bên trong,
      áp dụng cho mọi trạng thái (còn trống, đang gọi món, đã yêu cầu thanh toán, đã thanh toán) */
   .pbh-card.selected .pbh-card-shape {
-    background: var(--kv-primary) !important; border-color: var(--kv-primary) !important;
+    background: inherit !important; border-color: inherit !important;
     box-shadow: none; padding: 18px 18px; gap: 6px;
   }
   .pbh-card.selected .pbh-card-shape::after {
@@ -2916,10 +2916,10 @@
   }
   .pbh-card.selected .pbh-card-shape .amt,
   .pbh-card.selected .pbh-card-shape .dur,
-  .pbh-card.selected .pbh-card-shape .stat { color: #fff !important; }
+  .pbh-card.selected .pbh-card-shape .stat { color: inherit !important; }
   .pbh-card.selected .pbh-card-shape .stat + .stat::before { background: #fff; opacity: .7; }
-  .pbh-card.selected .pbh-card-chair { background: rgba(255,255,255,0.85) !important; }
-  .pbh-card.selected .pbh-card-name { color: #0d6efd; font-weight: 800; }
+  .pbh-card.selected .pbh-card-chair { background: inherit !important; }
+  .pbh-card.selected .pbh-card-name { color: inherit; font-weight: 800; }
   .pbh-pager { display: flex; align-items: center; justify-content: space-between; margin-top: 12px; }
   .pbh-pager label { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #525d6a; }
   .pbh-pager-nav { display: flex; align-items: center; gap: 10px; font-size: 13px; color: #525d6a; }
